@@ -1,0 +1,5 @@
+Log file created at: 2024/07/10 19:17:48
+Running on machine: tang
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240710 19:17:48.304933 140690207983808 main.cc:11] Start test...

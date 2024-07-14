@@ -1,0 +1,8 @@
+//
+// Created by tang on 7/10/24.
+//
+
+#ifndef DEEPINFER_INCLUDE_DATA_TENSOR_H_
+#define DEEPINFER_INCLUDE_DATA_TENSOR_H_
+
+#endif  // DEEPINFER_INCLUDE_DATA_TENSOR_H_
