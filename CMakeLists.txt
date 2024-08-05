@@ -17,10 +17,12 @@ endif()
 set(link_lib glog::glog GTest::GTest)
 set(link_math_lib  ${ARMADILLO_LIBRARIES} ${BLAS_LIBRARIES} ${LAPACK_LIBRARIES})
 
-aux_source_directory(./test DIR_TEST_ARMA)
-aux_source_directory(./src DIR_SRC_ARMA)
+aux_source_directory(./test DIR_TEST)
+aux_source_directory(./src/data DIR_DATA)
+aux_source_directory(./src/runtime DIR_RUNTIME)
+aux_source_directory(./src/runtime/pnnx DIR_RUNTIME)
 
-add_executable(DeepInfer main.cc ${DIR_TEST_ARMA} ${DIR_SRC_ARMA})
+add_executable(DeepInfer main.cc ${DIR_TEST} ${DIR_DATA} ${DIR_RUNTIME})
 
 target_link_libraries(DeepInfer ${link_lib} ${link_math_lib} OpenMP::OpenMP_CXX)
 

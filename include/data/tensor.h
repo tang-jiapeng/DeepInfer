@@ -1,5 +1,4 @@
-#ifndef DEEPINFER_INCLUDE_DATA_TENSOR_H_
-#define DEEPINFER_INCLUDE_DATA_TENSOR_H_
+#pragma once
 
 #include <sys/types.h>
 #include <armadillo>
@@ -255,4 +254,3 @@ using sftensor = std::shared_ptr<Tensor<float>>;
 
 }  // namespace deep_infer
 
-#endif  // DEEPINFER_INCLUDE_DATA_TENSOR_H_
